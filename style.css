@@ -1,0 +1,228 @@
+#head-one{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.content{
+    border: 1px solid black;
+    padding: 20px;
+    width: 25%;
+    height: 38.5rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #000;
+}
+.content:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 28px #0000004d;
+    transition-duration: .7s;
+  }
+.seemore-btn{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition-duration: .3s;
+    border: 1px solid #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.seemore-btn:hover{
+    color: #09100b;
+    background-color:#80a096;
+    box-shadow:10px 10px 10px #91c4c1;
+}
+.cart-btn{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition-duration: .7s;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart-btn:hover{
+    color: #09100b;
+    background-color:#80a096;
+}
+ .fa-solid{
+    font-size: 1.5rem;
+ }
+.count{
+    font-size: 2.5rem;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 10px;
+}
+.cart-content{
+    border: 1px solid black;
+    padding: 20px;
+    width: 50%;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #000;
+}
+.single-img{
+    display: flex;
+    justify-content: center;
+}
+.goback-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-goback{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition-duration: .3s;
+    border: 1px solid #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-goback:hover{
+    color: #09100b;
+    background-color:#80a096;
+    box-shadow:10px 10px 10px #91c4c1;
+}
+.anchor-goBack{
+    text-decoration: none;
+    color: #ffffff;
+}
+.addToCart-btn{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition-duration: .3s;
+    border: 1px solid #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.addToCart-btn:hover{
+    color: #09100b;
+    background-color:#80a096;
+    box-shadow:10px 10px 10px #91c4c1;
+}
+.cart-head{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
+#plus{
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition-duration: .3s;
+    border: 1px solid #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#plus:hover{
+    color: #09100b;
+    background-color:#80a096;
+    box-shadow:10px 10px 10px #91c4c1;
+}
+#minus{
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition-duration: .3s;
+    border: 1px solid #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#minus:hover{
+    color: #09100b;
+    background-color:#80a096;
+    box-shadow:10px 10px 10px #91c4c1;
+}
+.buy-now-btn{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.buy-now-btn:hover{
+    color: #09100b;
+    background-color:#80a096;
+    box-shadow:10px 10px 10px #91c4c1;
+}
+#delete-btn{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+#delete-btn:hover{
+    color: #09100b;
+    background-color:#e62a2a;
+}
+@media (max-width:768px){
+    .content{
+        width: 100%;
+        height: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    .container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .cart-content{
+       width: 90%;
+    }
+}
